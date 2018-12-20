@@ -178,8 +178,6 @@ a  = {1,1+t,1+2t,...} //Tablica a zawiera zbiór, który jest reprezentacją typ
 
 **        dopóki** i \&lt;= t\*n **;** //t\*n oznacza długość X&#39;a
 
-**Pełny kod programu w C++ dostępny pod adresem:** http://pastebin.com/MctRU5Yr
-
 **Wnioski:** Program działa i prawidłowo generuje wszystkie możliwe sekwencje drzewa t-arnego dla podanych przez użytkownika danych takich jak: Ilość rozgałęzień (n węzłów) oraz ilość gałęzi w jednym rozgałęzieniu (t). Czas wygenerowania oraz wypisania wszystkich sekwencji drastycznie rośnie wraz ze wzrostem wartości n i/lub wartości t. Program pozwolił na uzyskanie następujących wyników: B(3,4)=22 B(1,10)=1 B(10,1)=1 B(4,2)=14 Regularnym drzewem t-arnym nazywamy drzewo t-arne, w którym każdy węzeł jest albo liściem albo ma stopień t. Liczba liści w regularnym drzewie t-arnym o n węzłach wewnętrznych jest równa (t-1)n + 1. Program zatem podaje dodatkowo prawidłową ilość liści dla danego drzewa.
 
 **Literatura:**
